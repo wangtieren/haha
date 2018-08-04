@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import math  
+import numpy as np
+x= np.arange(0, 15, 0.01);
+h= np.sin(x)
+y=-3*(x-30)**2*h 
+plt.title("f(x) = -3*(x-30)**2*sin(x)")
+plt.plot(x, y)
